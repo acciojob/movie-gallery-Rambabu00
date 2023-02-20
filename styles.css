@@ -1,11 +1,17 @@
-
-/* Your CSS Code here. */
-. fluid{
-	display: flex;
-	flex-direction: row;
+.row {
+  width: 100%;
+  margin: 0 auto;
 }
-img{
-	width: 55px;
-	height: 100px;
-margin: 4px;
+
+.coloumn1{
+float: left;
+	width:70px;
+}
+.coloumn2{
+float: left;
+	width:140px;
+}
+.coloumn3{
+float: left;
+	width:280px;
 }
